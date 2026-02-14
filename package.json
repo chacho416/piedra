@@ -1,0 +1,15 @@
+{
+  "name": "piedra",
+  "version": "1.0.0",
+  "description": "Juego de Piedra, Papel o Tijera con Node.js y Socket.IO",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
