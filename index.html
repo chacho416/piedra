@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Piedra Papel Tijera</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Piedra, Papel o Tijera</h1>
+  <h2 id="status">Esperando jugador...</h2>
+
+  <div id="buttons">
+    <button onclick="sendChoice('piedra')">
+      <img src="rock.jpg" alt="Piedra">
+    </button>
+    <button onclick="sendChoice('papel')">
+      <img src="papel.jpg" alt="Papel">
+    </button>
+    <button onclick="sendChoice('tijera')">
+      <img src="tijeras.webp" alt="Tijera">
+    </button>
+  </div>
+
+  <h2 id="result"></h2>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js"></script>
+
+</body>
+</html>
