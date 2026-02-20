@@ -20,19 +20,6 @@ Tener instalado Node.js (versión 14 o superior recomendada)
 Puedes verificar tu versión con:
 
 node -v
-📂 Instalación
-
-Clona este repositorio:
-
-git clone https://github.com/tu-usuario/piedra-papel-tijera-node.git
-
-Entra en la carpeta del proyecto:
-
-cd piedra-papel-tijera-node
-
-(Opcional) Instala dependencias si el proyecto las requiere:
-
-npm install
 ▶️ Uso
 
 Ejecuta el juego con:
